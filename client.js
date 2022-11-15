@@ -47,11 +47,28 @@ console.log('array of employee data: ',  employees );
 
 
 // This function will calculate 1 employee's bonus!
-//
-function calculateIndividualEmployeeBonus( employee ) {  
-  // your logic here
-  
-  
-  // return new object with bonus results
 
-}
+let newEmployees = new Map([
+  ['bonusPercentage', 54]
+])
+console.log(newEmployees)
+function calculateIndividualEmployeeBonus( staffMember ) {  
+  for (let i = 0; i < employees.length; i++) {
+    console.log(employees[i])
+    }
+  }
+  
+   // return new object with bonus results
+
+  console.log(calculateIndividualEmployeeBonus());
+
+  function doYouGetBonus(employee){
+    for(employee of employees){
+      let employees = [];
+      if(employees.reviewRating < 2){
+        return `you get no bonus!`
+      }
+    } console.log(employee);
+  }
+
+console.log('people with no bonus',doYouGetBonus());
